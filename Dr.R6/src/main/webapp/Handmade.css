@@ -1,0 +1,261 @@
+@font-face {
+  src: url('fonts/GmarketSansTTFMedium.ttf');
+  font-family: 'allfonts';
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: "allfonts";
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+
+.mainDr_R{
+  color: rgb(56, 56, 56);
+  margin-top:80px;
+  margin-bottom: 20px;
+
+}
+
+.mainname{
+  color: rgb(82, 82, 82);
+  margin-top:30px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+}
+
+.allForm{
+  color: #636e72;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom : 20px;
+}
+
+.loginForm {
+  position:absolute;
+  width:350px;
+  height:500px;
+  padding: 30px, 20px;
+  background-color:#ffffff;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+
+.infoForm {
+  position:absolute;
+  width:350px;
+  height:600px;
+  padding: 30px, 20px;
+  background-color:#ffffff;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+
+.info2Form {
+  position:absolute;
+  width:400px;
+  height:600px;
+  padding: 30px, 20px;
+  background-color:#ffffff;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+
+.member_infoForm {
+  position:absolute;
+  width:350px;
+  height:550px;
+  padding: 30px, 20px;
+  background-color:#ffffff;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom : 20px;
+}
+
+.idForm{
+  padding: 10px 10px;
+}
+
+.passForm{
+  padding: 10px 10px;
+}
+
+.id {
+  width: 100%;
+  outline:none;
+  color: #636e72;
+  font-size:12px;
+  width: 280px;
+  height:35px;
+  background: none;
+  border:1.5px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.id2 {
+  width: 100%;
+  outline:none;
+  color: #636e72;
+  font-size:12px;
+  width: 300px;
+  height:35px;
+  background: none;
+  border:1.5px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.pw {
+    width: 100%;
+  outline:none;
+  color: #636e72;
+  font-size:12px;
+  width: 280px;
+  height:35px;
+  background: none;
+  border:1.5px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.backspace{
+  color: rgb(114, 114, 114);
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.btn {
+
+  position:relative;
+  left: 40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:300px;
+  height:40px;
+  background: rgb(244, 105, 19);
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+  border-radius: 12px;
+  margin-left:20px;
+}
+
+.btn2 {
+  position:relative;
+  left: 17%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:150px;
+  height:40px;
+  background: rgb(244, 105, 19);
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+  border-radius: 12px;
+  margin-left:20px;
+  margin-top: 50px;
+}
+
+.btn3 {
+    position:relative;
+    left: 17%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    width:150px;
+    height:40px;
+    background: rgb(244, 105, 19);
+    color:white;
+    font-weight: bold;
+    border:none;
+    cursor:pointer;
+    transition: 0.4s;
+    display:inline;
+    border-radius: 12px;
+    margin-left:20px;
+    margin-top: 50px;
+  }
+
+.btn4 {
+  position:relative;
+  left: 68%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width: 15%;
+  height:38px;
+  background: rgb(224, 224, 224);
+  color:rgb(116, 116, 116);
+  font-weight: bold;
+  border: 0px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 68px;
+  position: absolute;
+}
+
+
+.btn:hover {
+  background-position: right;
+}
+
+.bottomText {
+  text-align: center;
+  background-position: left;
+  background-size: 200%;
+  color:rgb(133, 132, 132);
+  font-weight: bold;
+  font-size:13px;
+  border-radius: 15px;
+  
+}
+a:visited { color: rgb(133, 132, 132); text-decoration: none;}
+a:link { color: rgb(133, 132, 132); text-decoration: none;}
+
+.s_{
+  background-color: #e8e8e8;
+}
+
+table{
+  margin:10px;
+  height:30px;
+  margin-bottom: 50px;
+}
+
+tr{
+  height:40px;
+}
+
+td{
+  font-size: 12px;
+  font-weight: bold;
+  left:10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
